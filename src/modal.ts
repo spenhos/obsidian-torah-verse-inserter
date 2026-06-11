@@ -184,7 +184,7 @@ export class PasukModal extends Modal {
 			this.versionSelect.createEl("option", { text: t("noTranslation"), value: "" });
 			for (const v of versions) {
 				const opt = this.versionSelect.createEl("option", {
-					text: `[${v.lang}] ${v.display}`,
+					text: `(${v.lang}) ${v.display}`,
 					value: v.title,
 				});
 				if (v.title === current) opt.selected = true;
@@ -303,7 +303,10 @@ export class PasukModal extends Modal {
 					version
 				);
 				if (!translation) new Notice(t("noTranslationForPassage"));
-				else versionLabel = this.settings.preferredVersionDisplay || version;
+				else
+					versionLabel = (this.settings.preferredVersionDisplay || version)
+						.replace(/\[/g, "(")
+						.replace(/\]/g, ")");
 			} catch {
 				new Notice(t("translationFetchError"));
 			}
