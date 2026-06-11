@@ -32,12 +32,12 @@
   <!-- Result 1 (selected) -->
   <rect x="100" y="200" width="660" height="78" rx="9" fill="#2d4364"/>
   <text x="118" y="226" font-size="13.5" font-weight="700" fill="#8fb4f7">Deuteronomy 6:4</text>
-  <text x="742" y="258" font-size="22" fill="#f3f7fc" text-anchor="end" direction="rtl">שְׁמַע יִשְׂרָאֵל יְהֹוָה אֱלֹהֵינוּ יְהֹוָה אֶחָד׃</text>
+  <text x="742" y="258" font-size="22" fill="#f3f7fc" text-anchor="start" direction="rtl">שְׁמַע יִשְׂרָאֵל יְהֹוָה אֱלֹהֵינוּ יְהֹוָה אֶחָד׃</text>
 
   <!-- Result 2 -->
   <rect x="100" y="286" width="660" height="74" rx="9" fill="#1f2c3f"/>
   <text x="118" y="312" font-size="13.5" font-weight="700" fill="#6f87a8">Deuteronomy 5:1</text>
-  <text x="742" y="342" font-size="20" fill="#b9c8dd" text-anchor="end" direction="rtl">וַיִּקְרָא מֹשֶׁה אֶל־כׇּל־יִשְׂרָאֵל… שְׁמַע יִשְׂרָאֵל</text>
+  <text x="742" y="342" font-size="20" fill="#b9c8dd" text-anchor="start" direction="rtl">וַיִּקְרָא מֹשֶׁה אֶל־כׇּל־יִשְׂרָאֵל… שְׁמַע יִשְׂרָאֵל</text>
 
   <!-- Caption -->
   <text x="430" y="404" font-size="13" fill="#8aa2c0" text-anchor="middle">Type “shema israel” with your Latin keyboard → finds the Hebrew שְׁמַע יִשְׂרָאֵל instantly, offline</text>
