@@ -7,8 +7,9 @@ import { readFileSync, writeFileSync, mkdirSync, readdirSync } from "node:fs";
 import { gzipSync } from "node:zlib";
 import { join, basename } from "node:path";
 
-const CORPUS_DIR =
-	"/Users/salehpenhos/Documents/Claude/Codigo/codigos-torah/public/data/corpus";
+// Cache local generado por tools/fetch-corpus.mjs (MAM para lectura: qeré
+// vocalizado en vez de ketiv consonantal).
+const CORPUS_DIR = new URL("./cache/", import.meta.url).pathname;
 const OUT_DIR = new URL("../src/data/", import.meta.url).pathname;
 
 mkdirSync(OUT_DIR, { recursive: true });
