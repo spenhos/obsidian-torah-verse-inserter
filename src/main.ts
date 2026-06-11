@@ -7,6 +7,7 @@ export interface PasukSettings {
 	includeTeamim: boolean;
 	quoteFormat: boolean;
 	maxResults: number;
+	fontCompat: boolean;
 }
 
 const DEFAULT_SETTINGS: PasukSettings = {
@@ -14,6 +15,7 @@ const DEFAULT_SETTINGS: PasukSettings = {
 	includeTeamim: false,
 	quoteFormat: true,
 	maxResults: 30,
+	fontCompat: true,
 };
 
 const GITHUB_URL = "https://github.com/spenhos/obsidian-pasuk";
@@ -91,6 +93,16 @@ class PasukSettingTab extends PluginSettingTab {
 			.addToggle((tg) =>
 				tg.setValue(s.quoteFormat).onChange((v) => {
 					s.quoteFormat = v;
+					save();
+				})
+			);
+
+		new Setting(containerEl)
+			.setName(t("fontCompat"))
+			.setDesc(t("fontCompatDesc"))
+			.addToggle((tg) =>
+				tg.setValue(s.fontCompat).onChange((v) => {
+					s.fontCompat = v;
 					save();
 				})
 			);

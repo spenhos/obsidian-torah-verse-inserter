@@ -127,6 +127,7 @@ export class PasukModal extends Modal {
 				text: formatHebrew(item.preview, {
 					nikud: this.settings.includeNikud,
 					teamim: this.settings.includeTeamim,
+					fontCompat: this.settings.fontCompat,
 				}),
 			});
 			el.addEventListener("click", () => {
@@ -148,7 +149,11 @@ export class PasukModal extends Modal {
 	private insertSelected() {
 		const item = this.items[this.selected];
 		if (!item) return;
-		const opts = { nikud: this.settings.includeNikud, teamim: this.settings.includeTeamim };
+		const opts = {
+			nikud: this.settings.includeNikud,
+			teamim: this.settings.includeTeamim,
+			fontCompat: this.settings.fontCompat,
+		};
 		const lines = item.verses.map((v) => formatHebrew(v, opts));
 
 		let text: string;
