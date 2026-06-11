@@ -35,8 +35,8 @@ export function parseRef(input: string): ParsedRef | null {
 	return { book, chapter, verseStart: v1, verseEnd: Math.min(v2, maxV), wholeChapter: false };
 }
 
-export function formatRefLabel(ref: ParsedRef, lang: "es" | "en"): string {
-	const name = lang === "es" ? ref.book.es : ref.book.en;
+export function formatRefLabel(ref: ParsedRef, lang: "es" | "en" | "he"): string {
+	const name = lang === "es" ? ref.book.es : lang === "he" ? ref.book.he : ref.book.en;
 	if (ref.wholeChapter) return `${name} ${ref.chapter}`;
 	const range = ref.verseStart === ref.verseEnd ? `${ref.verseStart}` : `${ref.verseStart}-${ref.verseEnd}`;
 	return `${name} ${ref.chapter}:${range}`;

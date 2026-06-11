@@ -7,24 +7,24 @@
   </defs>
   <rect width="860" height="420" rx="18" fill="url(#bg)"/>
   <rect x="70" y="36" width="720" height="348" rx="14" fill="#243348" stroke="#3b4f6b" stroke-width="1.5"/>
-  <text x="100" y="78" font-size="21" font-weight="700" fill="#e8eef7">Insert pasuk</text>
+  <text x="100" y="78" font-size="21" font-weight="700" fill="#e8eef7">Insérer un passouk</text>
   <rect x="100" y="96" width="660" height="46" rx="9" fill="#1a2433" stroke="#5b8def" stroke-width="2"/>
   <text x="118" y="126" font-size="20" fill="#e8eef7">shema israel</text>
   <rect x="252" y="104" width="2.5" height="30" fill="#5b8def"/>
-  <text x="742" y="126" font-size="13" fill="#7e93b0" text-anchor="end">regular keyboard ⌨️</text>
+  <text x="742" y="126" font-size="13" fill="#7e93b0" text-anchor="end">clavier normal ⌨️</text>
   <rect x="100" y="154" width="42" height="30" rx="6" fill="#2c3e57" stroke="#3b4f6b"/>
   <text x="121" y="175" font-size="16" font-weight="700" fill="#e8eef7" text-anchor="middle">א</text>
-  <text x="158" y="174" font-size="13" fill="#7e93b0">Translation:</text>
+  <text x="158" y="174" font-size="13" fill="#7e93b0">Traduction :</text>
   <rect x="238" y="154" width="240" height="30" rx="6" fill="#2c3e57" stroke="#3b4f6b"/>
-  <text x="250" y="174" font-size="12.5" fill="#cdd9ea">(es) El Pentateuco con Rashí ▾</text>
+  <text x="250" y="174" font-size="12.5" fill="#cdd9ea">(fr) Bible du Rabbinat ▾</text>
   <rect x="496" y="160" width="16" height="16" rx="4" fill="#5b8def"/>
   <path d="M499.5 168 l3.5 3.5 l6 -7" stroke="#fff" stroke-width="2.2" fill="none" stroke-linecap="round"/>
-  <text x="520" y="173" font-size="13" fill="#cdd9ea">AlHaTorah link</text>
+  <text x="520" y="173" font-size="13" fill="#cdd9ea">Lien AlHaTorah</text>
   <rect x="100" y="200" width="660" height="78" rx="9" fill="#2d4364"/>
-  <text x="118" y="226" font-size="13.5" font-weight="700" fill="#8fb4f7">Deuteronomy 6:4</text>
+  <text x="118" y="226" font-size="13.5" font-weight="700" fill="#8fb4f7">Deutéronome 6:4</text>
   <text x="742" y="258" font-size="22" fill="#f3f7fc" text-anchor="start" direction="rtl">שְׁמַע יִשְׂרָאֵל יְהֹוָה אֱלֹהֵינוּ יְהֹוָה אֶחָד׃</text>
   <rect x="100" y="286" width="660" height="74" rx="9" fill="#1f2c3f"/>
-  <text x="118" y="312" font-size="13.5" font-weight="700" fill="#6f87a8">Deuteronomy 5:1</text>
+  <text x="118" y="312" font-size="13.5" font-weight="700" fill="#6f87a8">Deutéronome 5:1</text>
   <text x="742" y="342" font-size="20" fill="#b9c8dd" text-anchor="start" direction="rtl">וַיִּקְרָא מֹשֶׁה אֶל־כׇּל־יִשְׂרָאֵל… שְׁמַע יִשְׂרָאֵל</text>
-  <text x="430" y="404" font-size="13" fill="#8aa2c0" text-anchor="middle">Type “shema israel” with your Latin keyboard → finds the Hebrew שְׁמַע יִשְׂרָאֵל instantly, offline</text>
+  <text x="430" y="404" font-size="13" fill="#8aa2c0" text-anchor="middle">Tapez “shema israel” avec votre clavier latin → trouve l'hébreu שְׁמַע יִשְׂרָאֵל instantanément, hors ligne</text>
 </svg>

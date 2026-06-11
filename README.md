@@ -7,10 +7,12 @@
 Full Hebrew text with nikud & cantillation · Type Hebrew with your **regular keyboard** · Optional translations
 
 [![GitHub release](https://img.shields.io/github/v/release/spenhos/obsidian-torah-verse-inserter?style=flat-square)](https://github.com/spenhos/obsidian-torah-verse-inserter/releases)
-[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](./LICENSE)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://github.com/spenhos/obsidian-torah-verse-inserter/blob/main/LICENSE)
 [![Ko-fi](https://img.shields.io/badge/Support-Ko--fi-FF5E5B?style=flat-square&logo=ko-fi&logoColor=white)](https://ko-fi.com/elevalma)
 
-![Torah Verse Inserter — search Hebrew with your regular keyboard](./assets/hero.svg)
+🌐 English | [Español](https://github.com/spenhos/obsidian-torah-verse-inserter/blob/main/README_es.md) | [עברית](https://github.com/spenhos/obsidian-torah-verse-inserter/blob/main/README_he.md) | [العربية](https://github.com/spenhos/obsidian-torah-verse-inserter/blob/main/README_ar.md) | [Français](https://github.com/spenhos/obsidian-torah-verse-inserter/blob/main/README_fr.md) | [Русский](https://github.com/spenhos/obsidian-torah-verse-inserter/blob/main/README_ru.md) | [Português](https://github.com/spenhos/obsidian-torah-verse-inserter/blob/main/README_pt.md)
+
+![Torah Verse Inserter — search Hebrew with your regular keyboard](https://raw.githubusercontent.com/spenhos/obsidian-torah-verse-inserter/main/assets/hero.svg)
 
 </div>
 
@@ -20,7 +22,7 @@ Full Hebrew text with nikud & cantillation · Type Hebrew with your **regular ke
 
 Searching Hebrew text normally means switching your keyboard layout back and forth. **Not here.** Type the way you'd pronounce it — the plugin understands Latin transliteration *naturally* and finds the Hebrew:
 
-![Transliteration flow — bereshit finds the Hebrew](./assets/translit-flow.svg)
+![Transliteration flow — bereshit finds the Hebrew](https://raw.githubusercontent.com/spenhos/obsidian-torah-verse-inserter/main/assets/translit-flow.svg)
 
 | You type (regular keyboard) | It finds (Hebrew) |
 |---|---|
@@ -72,7 +74,7 @@ Of course, you can also paste or type **Hebrew directly** (with or without nikud
 
 Click the **א** button to open a Hebrew keyboard inside the search window — handy when you want a specific letter (like ע vs א). Hover any key to see its name and sound. It remembers whether you left it open.
 
-![On-screen Hebrew alef-bet keyboard — how it works](./assets/keyboard.svg)
+![On-screen Hebrew alef-bet keyboard — how it works](https://raw.githubusercontent.com/spenhos/obsidian-torah-verse-inserter/main/assets/keyboard.svg)
 
 ---
 

@@ -10,13 +10,13 @@
   </defs>
   <rect width="860" height="560" rx="18" fill="url(#bg3)"/>
   <rect x="150" y="36" width="560" height="380" rx="14" fill="#243348" stroke="#3b4f6b" stroke-width="1.5"/>
-  <text x="180" y="72" font-size="19" font-weight="700" fill="#e8eef7">Insert pasuk</text>
+  <text x="180" y="72" font-size="19" font-weight="700" fill="#e8eef7">Insérer un passouk</text>
   <rect x="180" y="88" width="500" height="42" rx="9" fill="#1a2433" stroke="#5b8def" stroke-width="2"/>
   <text x="660" y="116" font-size="19" fill="#e8eef7" text-anchor="start" direction="rtl">ש</text>
   <rect x="638" y="96" width="2.5" height="26" fill="#5b8def"/>
   <rect x="180" y="146" width="42" height="30" rx="6" fill="#2c3e57" stroke="#f0a83d" stroke-width="2"/>
   <text x="201" y="167" font-size="16" font-weight="700" fill="#e8eef7" text-anchor="middle">א</text>
-  <text x="238" y="166" font-size="13" fill="#7e93b0">Translation: No translation ▾</text>
+  <text x="238" y="166" font-size="13" fill="#7e93b0">Traduction : Sans traduction ▾</text>
   <circle cx="224" cy="144" r="11" fill="#f0a83d"/>
   <text x="224" y="148.5" font-size="13" font-weight="700" fill="#1e2a3a" text-anchor="middle">1</text>
   <rect x="180" y="190" width="500" height="160" rx="9" fill="#1a2433" stroke="#3b4f6b"/>
@@ -59,11 +59,11 @@
   <text x="601" y="216.5" font-size="13" font-weight="700" fill="#1e2a3a" text-anchor="middle">3</text>
   <circle cx="166" cy="452" r="11" fill="#f0a83d"/>
   <text x="166" y="456.5" font-size="13" font-weight="700" fill="#1e2a3a" text-anchor="middle">1</text>
-  <text x="188" y="457" font-size="14.5" fill="#cdd9ea">Click א to show or hide the on-screen Hebrew keyboard — it remembers your choice.</text>
+  <text x="188" y="457" font-size="14.5" fill="#cdd9ea">Cliquez sur א pour afficher ou masquer le clavier hébreu — votre choix est mémorisé.</text>
   <circle cx="166" cy="488" r="11" fill="#f0a83d"/>
   <text x="166" y="492.5" font-size="13" font-weight="700" fill="#1e2a3a" text-anchor="middle">2</text>
-  <text x="188" y="493" font-size="14.5" fill="#cdd9ea">Hover any key to see its name and sound.</text>
+  <text x="188" y="493" font-size="14.5" fill="#cdd9ea">Survolez une touche pour voir son nom et son son.</text>
   <circle cx="166" cy="524" r="11" fill="#f0a83d"/>
   <text x="166" y="528.5" font-size="13" font-weight="700" fill="#1e2a3a" text-anchor="middle">3</text>
-  <text x="188" y="529" font-size="14.5" fill="#cdd9ea">Click a key — the letter is typed straight into your search.</text>
+  <text x="188" y="529" font-size="14.5" fill="#cdd9ea">Cliquez sur une touche — la lettre s'écrit directement dans votre recherche.</text>
 </svg>

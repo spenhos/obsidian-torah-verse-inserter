@@ -1,0 +1,143 @@
+<div align="center">
+
+# 📖 Torah Verse Inserter
+
+**أدرج أي آية من الكتاب المقدس العبري (التوراة / التناخ) في ملاحظاتك — بجمال وفورًا ودون إنترنت**
+
+نص عبري كامل مع النيقود وعلامات الترتيل · اكتب العبرية بـ**لوحة مفاتيحك العادية** · ترجمات اختيارية
+
+[![GitHub release](https://img.shields.io/github/v/release/spenhos/obsidian-torah-verse-inserter?style=flat-square)](https://github.com/spenhos/obsidian-torah-verse-inserter/releases)
+[![License: MIT](https://img.shields.io/badge/License-MIT-blue.svg?style=flat-square)](https://github.com/spenhos/obsidian-torah-verse-inserter/blob/main/LICENSE)
+[![Ko-fi](https://img.shields.io/badge/Support-Ko--fi-FF5E5B?style=flat-square&logo=ko-fi&logoColor=white)](https://ko-fi.com/elevalma)
+
+🌐 [English](https://github.com/spenhos/obsidian-torah-verse-inserter/blob/main/README.md) | [Español](https://github.com/spenhos/obsidian-torah-verse-inserter/blob/main/README_es.md) | [עברית](https://github.com/spenhos/obsidian-torah-verse-inserter/blob/main/README_he.md) | العربية | [Français](https://github.com/spenhos/obsidian-torah-verse-inserter/blob/main/README_fr.md) | [Русский](https://github.com/spenhos/obsidian-torah-verse-inserter/blob/main/README_ru.md) | [Português](https://github.com/spenhos/obsidian-torah-verse-inserter/blob/main/README_pt.md)
+
+![Torah Verse Inserter — ابحث بالعبرية بلوحة مفاتيحك العادية](https://raw.githubusercontent.com/spenhos/obsidian-torah-verse-inserter/main/assets/ar/hero.svg)
+
+</div>
+
+---
+
+<div dir="rtl">
+
+## ✨ الميزة الأهم: العبرية دون تبديل لوحة المفاتيح
+
+البحث في نص عبري يعني عادةً تبديل تخطيط لوحة المفاتيح ذهابًا وإيابًا. **ليس هنا.** اكتب كما تنطق — الملحق يفهم الكتابة اللاتينية *بشكل طبيعي* ويجد العبرية:
+
+</div>
+
+![تدفق الكتابة الصوتية — bereshit يجد العبرية](https://raw.githubusercontent.com/spenhos/obsidian-torah-verse-inserter/main/assets/ar/translit-flow.svg)
+
+<div dir="rtl">
+
+| أنت تكتب (لوحة مفاتيح عادية) | يجد (العبرية) |
+|---|---|
+| `bereshit` | בְּרֵאשִׁית |
+| `shema israel` | שְׁמַע יִשְׂרָאֵל |
+| `mayim` | מַיִם |
+| `torah` | תּוֹרָה |
+
+يتولى الملحق الأجزاء الصعبة من العبرية: الحركات مرنة، والحروف الملتبسة (يود، واو، ألف) تُطابق بذكاء — فيجد `mayim` كلمة מַיִם و`adam` كلمة אָדָם دون أن تفكر في ذلك.
+
+بالطبع يمكنك أيضًا لصق أو كتابة **العبرية مباشرة** (مع النيقود أو بدونه)، أو استخدام **لوحة مفاتيح الألف־بيت على الشاشة** — الخيار لك.
+
+---
+
+## 📚 ماذا يفعل
+
+- **يدرج أي آية من التناخ** (التوراة، الأنبياء، الكتابات — جميع الأسفار الـ39) في ملاحظتك كاقتباس Markdown نظيف مع مرجعها.
+- **النص العبري الكامل مضمّن دون إنترنت** — مقرا وفق المسورة (MAM) كاملاً، مع **النيقود (الحركات) وعلامات الترتيل**. النص العبري لا يحتاج اتصالاً أبدًا.
+- **ثلاث طرق للعثور على آية:**
+  1. **بالمرجع** — `Genesis 1:1` أو `bereshit 1:1-3` أو `תהלים 23` (أسماء الأسفار بالإنجليزية أو الإسبانية أو الكتابة الصوتية أو العبرية، مع نطاقات)
+  2. **بالكتابة الصوتية** — اكتب `veahavta` بلوحة مفاتيحك العادية
+  3. **بالنص العبري** — الصق בראשית مع النيقود أو بدونه
+- **ترجمات اختيارية** — اختر من مكتبة سفاريا (إنجليزية، إسبانية، فرنسية والمزيد، حسب السفر) وتُدرج تحت العبرية.
+- **روابط AlHaTorah** — مربع اختيار واحد يضيف رابطًا يفتح الآية في مقراءوت غدولوت (راشي، رمبان، ابن عزرا جنبًا إلى جنب).
+- **تنسيقك، قواعدك** — عبرية مع أو بدون نيقود / ترتيل، اقتباس أو ضمن السطر.
+
+---
+
+## 🚀 كيفية الاستخدام
+
+1. **ثبّت وفعّل** الملحق (الإعدادات ← ملحقات المجتمع ← ابحث عن "Torah" أو "Hebrew").
+2. افتح ملاحظة وشغّل الأمر **"إدراج آية (تناخ)"** من لوحة الأوامر (`Cmd/Ctrl+P`).
+   💡 *عيّن له اختصارًا في الإعدادات ← اختصارات لوحة المفاتيح (ابحث عن "pasuk").*
+3. **ابحث** بإحدى الطرق الثلاث:
+   - مرجع: `shemot 3:14` أو `Exodus 3:14`
+   - كتابة صوتية: `ehyeh asher ehyeh` *(لوحة مفاتيح عادية!)*
+   - عبرية: `אהיה אשר אהיה`
+4. اختياريًا اختر **ترجمة** من القائمة و/أو فعّل **رابط AlHaTorah** — يُحفظ كلا الخيارين.
+5. اضغط **Enter** (أو انقر نتيجة). انتهى:
+
+</div>
+
+```markdown
+> וַיֹּאמֶר אֱלֹהִים אֶל־מֹשֶׁה אֶהְיֶה אֲשֶׁר אֶהְיֶה...
+> — Exodus 3:14 · [AlHaTorah](https://mg.alhatorah.org/Full/Exodus/3.14)
+```
+
+<div dir="rtl">
+
+### لوحة مفاتيح الألف־بيت على الشاشة
+
+انقر على زر **א** لفتح لوحة مفاتيح عبرية داخل نافذة البحث — مفيد عندما تريد حرفًا محددًا (مثل ע مقابل א). مرّر فوق أي مفتاح لرؤية اسمه وصوته. يتذكر الملحق ما إذا تركتها مفتوحة.
+
+</div>
+
+![لوحة مفاتيح الألف־بيت — كيف تعمل](https://raw.githubusercontent.com/spenhos/obsidian-torah-verse-inserter/main/assets/ar/keyboard.svg)
+
+---
+
+<div dir="rtl">
+
+## ⚙️ الإعدادات
+
+| الإعداد | الوصف | الافتراضي |
+|---|---|---|
+| تضمين النيقود (الحركات) | إدراج الآيات مع علامات الحركات | مفعّل |
+| تضمين علامات الترتيل | إدراج الآيات مع علامات الترتيل | معطّل |
+| إدراج ككتلة اقتباس | وضع الآيات داخل اقتباس مع المرجع | مفعّل |
+| الحد الأقصى للنتائج | تحديد عدد الآيات عند البحث النصي | 30 |
+| توافق الخطوط | استبدال العلامات النادرة بمكافئات قياسية | مفعّل |
+
+---
+
+## 🕮 مصادر النص
+
+- **النص العبري:** [مقرا وفق المسورة (MAM)](https://en.wikipedia.org/wiki/Miqra_according_to_the_Masorah) — طبعة رقمية دقيقة للتناخ مبنية على مخطوطة حلب، بنسخة مثبّتة عبر سفاريا. في حالات الكتيب/القري، يدرج الملحق **القري** (الصيغة المقروءة) كاملة الحركات.
+- **الترجمات:** عند الطلب من مكتبة [سفاريا](https://www.sefaria.org) (يتطلب إنترنت، اختياري).
+- **روابط مقراءوت غدولوت:** [AlHaTorah.org](https://mg.alhatorah.org).
+
+---
+
+## ☕ الدعم
+
+Torah Verse Inserter مجاني ومفتوح المصدر. إذا كان يساعد دراستك للتوراة أو عملك بالعبرية، يمكنك دعم تطويره:
+
+</div>
+
+[![ادعمني على Ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/elevalma)
+
+[![Sponsor on GitHub](https://img.shields.io/badge/Sponsor-%E2%9D%A4-db61a2?logo=github&style=for-the-badge)](https://github.com/sponsors/spenhos)
+
+---
+
+<div dir="rtl">
+
+## 🤝 المساهمة
+
+نرحب بالـ Issues والـ PRs — خصوصًا حالات الكتابة الصوتية التي لم تجد ما توقعته، أو أسماء الأسفار بلغتك. [افتح issue](https://github.com/spenhos/obsidian-torah-verse-inserter/issues) مع مثال.
+
+> هل تبحث عن بحث يتجاهل علامات التشكيل داخل ملاحظاتك؟ جرّب ملحقي الآخر: [Diacritics-Free Search](https://github.com/spenhos/obsidian-diacritics-free-search).
+
+</div>
+
+---
+
+<div align="center">
+
+صُنع بـ ❤️ لدارسي التوراة واللغة العبرية
+
+**[Saleh Penhos](https://github.com/spenhos)**
+
+</div>

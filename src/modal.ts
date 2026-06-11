@@ -241,7 +241,7 @@ export class PasukModal extends Modal {
 		if (seq !== this.searchSeq) return;
 		const lang = currentLang();
 		this.items = hits.map((h: SearchHit) => ({
-			label: `${lang === "es" ? h.book.es : h.book.en} ${h.chapter}:${h.verse}`,
+			label: `${lang === "es" ? h.book.es : lang === "he" ? h.book.he : h.book.en} ${h.chapter}:${h.verse}`,
 			book: h.book,
 			chapter: h.chapter,
 			verseStart: h.verse,
