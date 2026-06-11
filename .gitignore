@@ -1,0 +1,5 @@
+node_modules/
+main.js
+src/data/
+.DS_Store
+data.json

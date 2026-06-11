@@ -1,0 +1,14 @@
+{
+	"id": "pasuk",
+	"name": "Pasuk — Tanakh Verses",
+	"version": "0.1.0",
+	"minAppVersion": "1.8.7",
+	"description": "Insert any Tanakh verse into your notes — search by reference or transliteration, full MAM text with nikud and te'amim bundled offline, optional translations from Sefaria.",
+	"author": "Saleh Penhos",
+	"authorUrl": "https://github.com/spenhos",
+	"fundingUrl": {
+		"Ko-fi": "https://ko-fi.com/elevalma",
+		"GitHub Sponsors": "https://github.com/sponsors/spenhos"
+	},
+	"isDesktopOnly": false
+}

@@ -1,0 +1,24 @@
+{
+	"name": "obsidian-pasuk",
+	"version": "0.1.0",
+	"description": "Obsidian plugin to insert Tanakh verses (MAM text, offline) with optional translations",
+	"main": "main.js",
+	"scripts": {
+		"dev": "node esbuild.config.mjs",
+		"build": "tsc -noEmit -skipLibCheck && node esbuild.config.mjs production",
+		"build-corpus": "node tools/build-corpus.mjs",
+		"lint": "eslint src/"
+	},
+	"keywords": ["obsidian", "tanakh", "torah", "hebrew", "pasuk", "bible"],
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^16.11.6",
+		"esbuild": "0.17.3",
+		"eslint": "^9.0.0",
+		"eslint-plugin-obsidianmd": "^0.3.0",
+		"obsidian": "latest",
+		"tslib": "2.4.0",
+		"typescript": "^5.6.0",
+		"typescript-eslint": "^8.0.0"
+	}
+}
