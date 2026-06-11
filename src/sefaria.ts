@@ -51,6 +51,9 @@ function cleanTranslation(raw: string): string {
 		.replace(/<sup class="footnote-marker">[\s\S]*?<\/sup>/g, "")
 		.replace(/<[^>]+>/g, "")
 		.replace(/&[a-zA-Z]+;|&#\d+;/g, " ")
+		// corchetes del traductor -> paréntesis (Obsidian interpreta [...] como enlace)
+		.replace(/\[\s*/g, "(")
+		.replace(/\s*\]/g, ")")
 		.replace(/\s{2,}/g, " ")
 		.trim();
 }
