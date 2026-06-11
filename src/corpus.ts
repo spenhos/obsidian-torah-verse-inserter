@@ -1,6 +1,13 @@
 // Carga perezosa del corpus: cada libro se descomprime (gzip) la primera vez
 // que se usa y queda cacheado en memoria.
-import { CORPUS_GZ, BOOK_SHAPE } from "./data/corpus";
+//
+// src/data/corpus.ts es un archivo GENERADO (npm run build-corpus) y no vive
+// en el repo, por eso se tipa explícitamente aquí: así el análisis estático
+// funciona aunque el archivo generado no esté presente.
+import { CORPUS_GZ as RAW_GZ, BOOK_SHAPE as RAW_SHAPE } from "./data/corpus";
+
+const CORPUS_GZ: Record<string, string> = RAW_GZ as Record<string, string>;
+const BOOK_SHAPE: Record<string, number[]> = RAW_SHAPE as Record<string, number[]>;
 
 const cache = new Map<string, string[][]>();
 
