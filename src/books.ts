@@ -55,6 +55,21 @@ export const BOOKS: BookInfo[] = [
 	{ key: "IIChronicles", en: "II Chronicles", es: "2 Crónicas", he: "דברי הימים ב", translit: "Divrei HaYamim Bet", aliases: ["2cr", "2cro", "2cron", "2chronicles", "iichronicles", "divrei2"] },
 ];
 
+/** Ref de Sefaria por key del corpus (solo los que difieren del key). */
+const SEFARIA_REF_OVERRIDES: Record<string, string> = {
+	ISamuel: "I_Samuel",
+	IISamuel: "II_Samuel",
+	IKings: "I_Kings",
+	IIKings: "II_Kings",
+	SongOfSongs: "Song_of_Songs",
+	IChronicles: "I_Chronicles",
+	IIChronicles: "II_Chronicles",
+};
+
+export function sefariaRef(book: BookInfo): string {
+	return SEFARIA_REF_OVERRIDES[book.key] ?? book.key;
+}
+
 /** Normaliza para matching: minúsculas, sin acentos latinos, sin espacios/puntos. */
 export function normName(s: string): string {
 	return s

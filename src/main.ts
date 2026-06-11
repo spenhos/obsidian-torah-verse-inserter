@@ -8,6 +8,9 @@ export interface PasukSettings {
 	quoteFormat: boolean;
 	maxResults: number;
 	fontCompat: boolean;
+	alefBetOpen: boolean;
+	preferredVersion: string; // versionTitle de Sefaria ("" = sin traducción)
+	preferredVersionDisplay: string;
 }
 
 const DEFAULT_SETTINGS: PasukSettings = {
@@ -16,6 +19,9 @@ const DEFAULT_SETTINGS: PasukSettings = {
 	quoteFormat: true,
 	maxResults: 30,
 	fontCompat: true,
+	alefBetOpen: false,
+	preferredVersion: "",
+	preferredVersionDisplay: "",
 };
 
 const GITHUB_URL = "https://github.com/spenhos/obsidian-pasuk";
@@ -32,7 +38,7 @@ export default class PasukPlugin extends Plugin {
 			id: "insert-verse",
 			name: t("cmdInsert"),
 			editorCallback: (editor: Editor) => {
-				new PasukModal(this.app, editor, this.settings).open();
+				new PasukModal(this.app, editor, this).open();
 			},
 		});
 

@@ -30,6 +30,11 @@ const translations: Record<Lang, Record<string, string>> = {
 		viewGithub: "View on GitHub",
 		reportIssue: "Report an issue",
 		searching: "Searching…",
+		toggleKeyboard: "Hebrew keyboard",
+		translationLabel: "Translation:",
+		noTranslation: "No translation",
+		noTranslationForPassage: "That version has no text for this passage — inserted Hebrew only.",
+		translationFetchError: "Could not fetch the translation (offline?) — inserted Hebrew only.",
 	},
 	es: {
 		cmdInsert: "Insertar pasuk (versículo del Tanaj)",
@@ -55,6 +60,11 @@ const translations: Record<Lang, Record<string, string>> = {
 		viewGithub: "Ver en GitHub",
 		reportIssue: "Reportar un problema",
 		searching: "Buscando…",
+		toggleKeyboard: "Teclado hebreo",
+		translationLabel: "Traducción:",
+		noTranslation: "Sin traducción",
+		noTranslationForPassage: "Esa versión no tiene texto para este pasaje — se insertó solo el hebreo.",
+		translationFetchError: "No se pudo traer la traducción (¿sin internet?) — se insertó solo el hebreo.",
 	},
 };
 

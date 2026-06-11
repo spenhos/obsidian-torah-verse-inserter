@@ -18,6 +18,81 @@
 	outline: none;
 }
 
+/* ===== Toolbar (teclado + traducción) ===== */
+.pasuk-toolbar {
+	display: flex;
+	align-items: center;
+	gap: 10px;
+	margin-top: 8px;
+}
+
+.pasuk-kb-toggle {
+	font-size: 16px;
+	font-weight: 700;
+	padding: 4px 10px;
+	border-radius: 6px;
+	border: 1px solid var(--background-modifier-border);
+	background: var(--interactive-normal);
+	cursor: pointer;
+}
+
+.pasuk-kb-toggle:hover {
+	background: var(--interactive-hover);
+}
+
+.pasuk-version-wrap {
+	display: flex;
+	align-items: center;
+	gap: 6px;
+	flex: 1;
+	min-width: 0;
+}
+
+.pasuk-version-label {
+	font-size: 12px;
+	color: var(--text-muted);
+	white-space: nowrap;
+}
+
+.pasuk-version-select {
+	flex: 1;
+	min-width: 0;
+	max-width: 100%;
+	font-size: 12px;
+}
+
+/* ===== Teclado alef-bet ===== */
+.pasuk-alefbet {
+	direction: rtl;
+	display: flex;
+	flex-wrap: wrap;
+	gap: 4px;
+	margin-top: 8px;
+	padding: 8px;
+	border: 1px solid var(--background-modifier-border);
+	border-radius: 6px;
+	background: var(--background-secondary);
+}
+
+.pasuk-alefbet.is-hidden {
+	display: none;
+}
+
+.pasuk-alefbet-key {
+	min-width: 34px;
+	padding: 5px 8px;
+	font-size: 17px;
+	border-radius: 5px;
+	border: 1px solid var(--background-modifier-border);
+	background: var(--background-primary);
+	cursor: pointer;
+}
+
+.pasuk-alefbet-key:hover {
+	background: var(--interactive-hover);
+	border-color: var(--interactive-accent);
+}
+
 .pasuk-hint {
 	margin: 6px 2px 10px;
 	font-size: 12px;
