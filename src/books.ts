@@ -70,6 +70,14 @@ export function sefariaRef(book: BookInfo): string {
 	return SEFARIA_REF_OVERRIDES[book.key] ?? book.key;
 }
 
+/**
+ * Deep-link al Mikraot Gedolot de AlHaTorah (texto + Rashi, Ramban, Ibn Ezra...).
+ * Mismo formato que usa elevalma/codigos-torah en producción.
+ */
+export function alhatorahUrl(book: BookInfo, chapter: number, verse: number): string {
+	return `https://mg.alhatorah.org/Full/${sefariaRef(book)}/${chapter}.${verse}`;
+}
+
 /** Normaliza para matching: minúsculas, sin acentos latinos, sin espacios/puntos. */
 export function normName(s: string): string {
 	return s

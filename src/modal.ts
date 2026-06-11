@@ -1,6 +1,6 @@
 // Modal de búsqueda e inserción de pesukim.
 import { App, Editor, Modal, Notice } from "obsidian";
-import { BookInfo, sefariaRef } from "./books";
+import { alhatorahUrl, BookInfo, sefariaRef } from "./books";
 import { formatRefLabel, parseRef } from "./refparse";
 import { getVerses } from "./corpus";
 import { searchText, SearchHit } from "./search";
@@ -111,6 +111,16 @@ export class PasukModal extends Modal {
 			const opt = this.versionSelect.selectedOptions[0];
 			this.settings.preferredVersion = this.versionSelect.value;
 			this.settings.preferredVersionDisplay = opt ? opt.text : "";
+			void this.plugin.saveSettings();
+		});
+
+		// Checkbox: link a AlHaTorah (persistido)
+		const ahtLabel = toolbar.createEl("label", { cls: "pasuk-aht-label" });
+		const ahtCheck = ahtLabel.createEl("input", { type: "checkbox" });
+		ahtCheck.checked = this.settings.alhatorahLink;
+		ahtLabel.appendText(" " + t("alhatorahLink"));
+		ahtCheck.addEventListener("change", () => {
+			this.settings.alhatorahLink = ahtCheck.checked;
 			void this.plugin.saveSettings();
 		});
 
@@ -312,17 +322,23 @@ export class PasukModal extends Modal {
 			}
 		}
 
+		const ahtLink = this.settings.alhatorahLink
+			? `[AlHaTorah](${alhatorahUrl(item.book, item.chapter, item.verseStart)})`
+			: "";
+
 		let text: string;
 		if (this.settings.quoteFormat) {
 			let quoted = lines.map((l) => `> ${l}`).join("\n");
 			if (translation) {
 				quoted += "\n>\n" + translation.map((l) => `> ${l}`).join("\n");
 			}
-			const source = versionLabel ? `${item.label} · ${versionLabel}` : item.label;
+			let source = versionLabel ? `${item.label} · ${versionLabel}` : item.label;
+			if (ahtLink) source += ` · ${ahtLink}`;
 			text = `${quoted}\n> — ${source}\n`;
 		} else {
 			text = `${lines.join(" ")} (${item.label})`;
 			if (translation) text += `\n${translation.join(" ")}`;
+			if (ahtLink) text += ` ${ahtLink}`;
 		}
 
 		this.editor.replaceSelection(text);

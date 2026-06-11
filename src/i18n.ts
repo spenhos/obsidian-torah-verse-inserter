@@ -35,6 +35,7 @@ const translations: Record<Lang, Record<string, string>> = {
 		noTranslation: "No translation",
 		noTranslationForPassage: "That version has no text for this passage — inserted Hebrew only.",
 		translationFetchError: "Could not fetch the translation (offline?) — inserted Hebrew only.",
+		alhatorahLink: "AlHaTorah link",
 	},
 	es: {
 		cmdInsert: "Insertar pasuk (versículo del Tanaj)",
@@ -65,6 +66,7 @@ const translations: Record<Lang, Record<string, string>> = {
 		noTranslation: "Sin traducción",
 		noTranslationForPassage: "Esa versión no tiene texto para este pasaje — se insertó solo el hebreo.",
 		translationFetchError: "No se pudo traer la traducción (¿sin internet?) — se insertó solo el hebreo.",
+		alhatorahLink: "Link a AlHaTorah",
 	},
 };
 

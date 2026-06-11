@@ -11,6 +11,7 @@ export interface PasukSettings {
 	alefBetOpen: boolean;
 	preferredVersion: string; // versionTitle de Sefaria ("" = sin traducción)
 	preferredVersionDisplay: string;
+	alhatorahLink: boolean;
 }
 
 const DEFAULT_SETTINGS: PasukSettings = {
@@ -22,6 +23,7 @@ const DEFAULT_SETTINGS: PasukSettings = {
 	alefBetOpen: false,
 	preferredVersion: "",
 	preferredVersionDisplay: "",
+	alhatorahLink: false,
 };
 
 const GITHUB_URL = "https://github.com/spenhos/obsidian-pasuk";

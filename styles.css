@@ -61,6 +61,16 @@
 	font-size: 12px;
 }
 
+.pasuk-aht-label {
+	display: flex;
+	align-items: center;
+	gap: 4px;
+	font-size: 12px;
+	color: var(--text-muted);
+	white-space: nowrap;
+	cursor: pointer;
+}
+
 /* ===== Teclado alef-bet ===== */
 .pasuk-alefbet {
 	direction: rtl;
