@@ -6,7 +6,9 @@
 // funciona aunque el archivo generado no esté presente.
 import { CORPUS_GZ as RAW_GZ, BOOK_SHAPE as RAW_SHAPE } from "./data/corpus";
 
+// eslint-disable-next-line @typescript-eslint/no-unnecessary-type-assertion -- el módulo generado puede no existir en análisis estático
 const CORPUS_GZ: Record<string, string> = RAW_GZ as Record<string, string>;
+// eslint-disable-next-line @typescript-eslint/no-unnecessary-type-assertion -- el módulo generado puede no existir en análisis estático
 const BOOK_SHAPE: Record<string, number[]> = RAW_SHAPE as Record<string, number[]>;
 
 const cache = new Map<string, string[][]>();
