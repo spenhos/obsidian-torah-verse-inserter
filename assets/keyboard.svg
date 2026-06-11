@@ -1,0 +1,88 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 860 560" font-family="-apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif">
+  <defs>
+    <linearGradient id="bg3" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#1e2a3a"/>
+      <stop offset="1" stop-color="#16202e"/>
+    </linearGradient>
+    <marker id="arr3" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="7" markerHeight="7" orient="auto-start-reverse">
+      <path d="M0 0 L10 5 L0 10 z" fill="#f0a83d"/>
+    </marker>
+  </defs>
+  <rect width="860" height="560" rx="18" fill="url(#bg3)"/>
+
+  <!-- Modal card -->
+  <rect x="150" y="36" width="560" height="380" rx="14" fill="#243348" stroke="#3b4f6b" stroke-width="1.5"/>
+  <text x="180" y="72" font-size="19" font-weight="700" fill="#e8eef7">Insert pasuk</text>
+
+  <!-- Input -->
+  <rect x="180" y="88" width="500" height="42" rx="9" fill="#1a2433" stroke="#5b8def" stroke-width="2"/>
+  <text x="660" y="116" font-size="19" fill="#e8eef7" text-anchor="start" direction="rtl">ש</text>
+  <rect x="638" y="96" width="2.5" height="26" fill="#5b8def"/>
+
+  <!-- Toolbar -->
+  <rect x="180" y="146" width="42" height="30" rx="6" fill="#2c3e57" stroke="#f0a83d" stroke-width="2"/>
+  <text x="201" y="167" font-size="16" font-weight="700" fill="#e8eef7" text-anchor="middle">א</text>
+  <text x="238" y="166" font-size="13" fill="#7e93b0">Translation: No translation ▾</text>
+  <circle cx="224" cy="144" r="11" fill="#f0a83d"/>
+  <text x="224" y="148.5" font-size="13" font-weight="700" fill="#1e2a3a" text-anchor="middle">1</text>
+
+  <!-- Keyboard panel -->
+  <rect x="180" y="190" width="500" height="160" rx="9" fill="#1a2433" stroke="#3b4f6b"/>
+  <!-- Row 1 -->
+  <g font-size="17" fill="#e8eef7" text-anchor="middle">
+    <rect x="632" y="202" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="651" y="225">א</text>
+    <rect x="586" y="202" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="605" y="225">ב</text>
+    <rect x="540" y="202" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="559" y="225">ג</text>
+    <rect x="494" y="202" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="513" y="225">ד</text>
+    <rect x="448" y="202" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="467" y="225">ה</text>
+    <rect x="402" y="202" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="421" y="225">ו</text>
+    <rect x="356" y="202" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="375" y="225">ז</text>
+    <rect x="310" y="202" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="329" y="225">ח</text>
+    <rect x="264" y="202" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="283" y="225">ט</text>
+    <rect x="218" y="202" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="237" y="225">י</text>
+    <!-- Row 2 -->
+    <rect x="632" y="244" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="651" y="267">כ</text>
+    <rect x="586" y="244" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="605" y="267">ך</text>
+    <rect x="540" y="244" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="559" y="267">ל</text>
+    <rect x="494" y="244" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="513" y="267">מ</text>
+    <rect x="448" y="244" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="467" y="267">ם</text>
+    <rect x="402" y="244" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="421" y="267">נ</text>
+    <rect x="356" y="244" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="375" y="267">ן</text>
+    <rect x="310" y="244" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="329" y="267">ס</text>
+    <rect x="264" y="244" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="283" y="267">ע</text>
+    <rect x="218" y="244" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="237" y="267">פ</text>
+    <!-- Row 3 -->
+    <rect x="632" y="286" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="651" y="309">ף</text>
+    <rect x="586" y="286" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="605" y="309">צ</text>
+    <rect x="540" y="286" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="559" y="309">ץ</text>
+    <rect x="494" y="286" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="513" y="309">ק</text>
+    <rect x="448" y="286" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="467" y="309">ר</text>
+    <rect x="402" y="286" width="38" height="34" rx="6" fill="#5b8def" stroke="#8fb4f7"/><text x="421" y="309" font-weight="700" fill="#ffffff">ש</text>
+    <rect x="356" y="286" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="375" y="309">ת</text>
+    <rect x="310" y="286" width="38" height="34" rx="6" fill="#243348" stroke="#3b4f6b"/><text x="329" y="309">־</text>
+  </g>
+
+  <!-- Tooltip bubble under ש -->
+  <rect x="367" y="324" width="108" height="24" rx="6" fill="#0f1722" stroke="#5b8def"/>
+  <text x="421" y="340" font-size="12.5" fill="#cdd9ea" text-anchor="middle">shin (sh/s)</text>
+  <circle cx="487" cy="336" r="11" fill="#f0a83d"/>
+  <text x="487" y="340.5" font-size="13" font-weight="700" fill="#1e2a3a" text-anchor="middle">2</text>
+
+  <!-- Dashed arrow: clicked key flies into the input -->
+  <path d="M 421 282 C 580 240, 655 190, 648 136" fill="none" stroke="#f0a83d" stroke-width="2.2" stroke-dasharray="6 5" marker-end="url(#arr3)"/>
+  <circle cx="601" cy="212" r="11" fill="#f0a83d"/>
+  <text x="601" y="216.5" font-size="13" font-weight="700" fill="#1e2a3a" text-anchor="middle">3</text>
+
+  <!-- Legend -->
+  <circle cx="166" cy="452" r="11" fill="#f0a83d"/>
+  <text x="166" y="456.5" font-size="13" font-weight="700" fill="#1e2a3a" text-anchor="middle">1</text>
+  <text x="188" y="457" font-size="14.5" fill="#cdd9ea">Click א to show or hide the on-screen Hebrew keyboard — it remembers your choice.</text>
+
+  <circle cx="166" cy="488" r="11" fill="#f0a83d"/>
+  <text x="166" y="492.5" font-size="13" font-weight="700" fill="#1e2a3a" text-anchor="middle">2</text>
+  <text x="188" y="493" font-size="14.5" fill="#cdd9ea">Hover any key to see its name and sound.</text>
+
+  <circle cx="166" cy="524" r="11" fill="#f0a83d"/>
+  <text x="166" y="528.5" font-size="13" font-weight="700" fill="#1e2a3a" text-anchor="middle">3</text>
+  <text x="188" y="529" font-size="14.5" fill="#cdd9ea">Click a key — the letter is typed straight into your search.</text>
+</svg>

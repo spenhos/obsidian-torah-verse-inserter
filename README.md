@@ -72,6 +72,8 @@ Of course, you can also paste or type **Hebrew directly** (with or without nikud
 
 Click the **א** button to open a Hebrew keyboard inside the search window — handy when you want a specific letter (like ע vs א). Hover any key to see its name and sound. It remembers whether you left it open.
 
+![On-screen Hebrew alef-bet keyboard — how it works](./assets/keyboard.svg)
+
 ---
 
 ## ⚙️ Settings
